@@ -193,6 +193,12 @@ main{
     font-weight: 200;
 }
 
+.contact a{
+    color: #f8f8f8;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
 @media screen and (max-width:844px) {
     .contact{
         margin-left: 7.5%;
@@ -211,6 +217,12 @@ main{
         font-size: 3rem;
         font-weight: 200;
         line-height: 1.5;
+    }
+
+    .contact a{
+        color: #f8f8f8;
+        font-size: 3rem;
+        font-weight: 200;
     }
 }
 
