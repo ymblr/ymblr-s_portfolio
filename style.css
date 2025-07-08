@@ -184,7 +184,6 @@ main{
     font-weight: 300;
     margin-bottom: 1%;
     line-height: 1.5;
-    text-decoration: underline;
 }
 
 .contact p{
@@ -194,9 +193,15 @@ main{
 }
 
 .contact a{
+    text-decoration: none;
     color: #f8f8f8;
     font-size: 1.5rem;
     font-weight: 200;
+}
+
+.contact a:hover{
+    text-decoration: underline;
+    color: #f8f8f8;
 }
 
 @media screen and (max-width:844px) {
@@ -209,7 +214,6 @@ main{
         font-size: 4rem;
         font-weight: 300;
         margin-bottom: 1%;
-        text-decoration: underline;
     }
     
     .contact p{
@@ -220,9 +224,15 @@ main{
     }
 
     .contact a{
+        text-decoration: none;
         color: #f8f8f8;
         font-size: 3rem;
         font-weight: 200;
+    }
+
+    .contact a:hover{
+        text-decoration: underline;
+        color: #f8f8f8;
     }
 }
 
@@ -237,7 +247,6 @@ main{
     font-size: 2.5rem;
     font-weight: 300;
     padding-bottom: 5%;
-    text-decoration: underline;
 }
 
 .works_article{
@@ -290,7 +299,6 @@ main{
         font-size: 4rem;
         font-weight: 300;
         padding-bottom: 5%;
-        text-decoration: underline;
     }
     
     .works_article{
@@ -351,7 +359,6 @@ main{
     font-size: 2.5rem;
     font-weight: 300;
     padding-bottom: 5%;
-    text-decoration: underline;
 }
 
 .study_article{
@@ -388,7 +395,6 @@ main{
         font-size: 4rem;
         font-weight: 300;
         padding-bottom: 5%;
-        text-decoration: underline;
     }
     
     .study_article{
